@@ -63,7 +63,6 @@ main {
 /* primo main */
 
 .viewfotobanner {
-    border: 2px solid red;
     border-radius: 20px;
     width: 100%;
     height: 700px;
@@ -87,7 +86,6 @@ main {
 }
 
 .testofoto {
-    border: 2px solid red;
     width: 50%;
     color: white;
     position: absolute;
@@ -107,14 +105,13 @@ main {
 
 /* secondo main  */
 
-.article {
+/* .article {
     background-color: #0086ff;
-}
+} */
 
 /* rettangolo di sopra */
 
 .rettangolo-top {
-    background-color: #abcfe7;
     width: 100%;
     height: 100px;
     margin-bottom: 30px;
@@ -132,6 +129,7 @@ main {
 
 .testoleader p {
     font-size: 15px;
+    color: #989898;
 }
 
 /* colonne centrali */
@@ -144,14 +142,12 @@ main {
 }
 
 .colonna-laterale {
-    background-color: #abcfe7;
     height: 650px;
     width: 20%;
     float: left;
 }
 
 .colonna-centrale {
-    background-color: #abcfe7;
     height: 650px;
     width: calc( 60% - 60px);
     margin-left: 30px;
@@ -160,7 +156,6 @@ main {
 }
 
 .foto-sx {
-    border: 2px solid red;
     border-radius: 20px;
     width: 100%;
     height: 250px;
@@ -174,7 +169,6 @@ main {
 }
 
 .foto-cx {
-    border: 2px solid red;
     border-radius: 20px;
     width: 100%;
     height: 250px;
@@ -188,7 +182,6 @@ main {
 }
 
 .foto-dx {
-    border: 2px solid red;
     border-radius: 20px;
     width: 100%;
     height: 250px;
