@@ -5,17 +5,54 @@
     box-sizing: border-box;
 }
 
-
 .container {
-    width: 1600px;
+    width: 80%;
     margin: 30px auto;
 }
 
+ul {
+    list-style-type: none;
+}
+
+
+
+
+/* header con logo e barra nav */
+
 header {
     width: 100%;
-    height: 100px;
-    background-color: #e579e6;
 }
+
+.logo {
+    height: 100px;
+    padding: 20px;
+}
+
+.menu-principale li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-principale a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #888888;
+}
+
+a:hover {
+    background-color: #000;
+    color: white;
+}
+
+
+
+
+
+
+
+
 
 .viewfoto {
     background-color: #e1d67a;
