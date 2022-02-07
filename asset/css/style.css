@@ -23,10 +23,14 @@ header {
     width: 100%;
 }
 
+/* logo */
+
 .logo {
     height: 100px;
     padding: 20px;
 }
+
+/* barra nav */
 
 .menu-principale li {
     display: inline-block;
@@ -49,17 +53,53 @@ a:hover {
 
 
 
+/* main centrale con 2 sezioni */
 
-
-
-
+/* primo main */
 
 .viewfoto {
-    background-color: #e1d67a;
+    border: 2px solid red;
+    border-radius: 20px;
     width: 100%;
-    height: 500px;
+    height: 700px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
     margin-bottom: 30px;
 }
+
+.overlay {
+    background-color: rgba(255, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.testofoto {
+    border: 2px solid red;
+    width: 50%;
+    color: white;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+
+.testofoto h2 {
+    font-size: 30px;
+}
+
+.testofoto p {
+    font-size: 15px;
+}
+
+
+
+
+
 
 .turchese-top {
     background-color: #abcfe7;
